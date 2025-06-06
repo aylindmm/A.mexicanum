@@ -25,7 +25,7 @@ tar -xvf org.Amexicanum.eg.db.tar.gz
 To use the OrgDB package in R:
 
 ```R
-install.packages("file.path( path/to/org.Amexicanum.eg.db", "org.Amexicanum.eg.db"), 
+install.packages(file.path("path/to/org.Amexicanum.eg.db", "org.Amexicanum.eg.db"), 
                  type = "source", repos=NULL)
 library(org.Amexicanum.eg.db)
 ```
